@@ -1,0 +1,105 @@
+<html> 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/todoList.css">
+       
+        <title>HACKATOM-SEMANA 11</title>
+    
+    
+    </head>
+
+<body> 
+
+
+    <form action="" id="formulario">
+
+        <div>
+
+            <label form=""> Menu de hoy</label>
+            <input type="text" id="nombre">
+
+        </div>
+
+            <div>
+
+                <label form="">Comida:</label>
+                <select name="" id="select">
+
+                    <option value="00">-Cocinamos-</option>
+                    <option value="A">Arroz</option>
+                    <option value="B">Lentejas</option>
+                    <option value="C">Pescado</option>
+
+                </select>
+
+            </div>
+
+            <input type="submit" value="enviar">
+
+            
+
+    </form>
+
+
+<form name="miFormulario" action="mailto:promocion@guiarte.com" enctype="text/plain"> 
+<input type="checkbox" name="miCheck"> 
+<br> 
+<br> 
+<input type="button" value="informa de su propiedad checked" onclick="alertaChecked()"> 
+<input type="button" value="informa de su propiedad value" onclick="alertaValue()"> 
+<br> 
+<br> 
+<input type="button" value="Simula un click" onclick="metodoClick()"> 
+</form> 
+
+
+
+    <!-- aqui funcion eliminar item-->
+
+    <header role="navigation">
+        <section role="header">
+          <i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>
+          <div class="search">
+            <input type="text" id="searchBar">
+            <a class="button red addToList">Agregar</a>
+          </div>
+        </section>
+        <section role="main" id="main-section">
+          <h1>Mis tareas:</h1>
+          <ul id="unordered">
+            <li>Tareas del Día
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </li>
+            <li>Agregar mis tareas<i class="fa fa-trash" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </section>
+      </header>
+      
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ 
+    
+    
+
+ 
+
+    <script src="./js/toodolist.js"></script>
+    
+
+</body> 
+</html>
